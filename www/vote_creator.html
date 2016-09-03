@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Capture Photo</title>
+	
+	<link rel="stylesheet" href="css/creatorCss.css">
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="js/creatorScr.js">
+	</script>
+	
+  </head>
+  <body onload="init()">
+  <div id="tabbedMenu">
+	<div id="buttsGroup">
+		<button class="butts" onclick="capturePhoto();">Capture Photo</button>
+		<!--
+		<button class="butts" onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
+		<button class="butts" onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
+		<button class="butts" onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
+		-->
+	</div>
+	<div id="imageSpace"></div>
+	<button class="butts" onclick="ready();">Ready</button>
+
+  </div>
+  </body>
+</html>

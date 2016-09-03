@@ -1,0 +1,21 @@
+#tabbedMenu{
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+}
+#buttsGroup{
+	text-align: center;
+}
+.smallImage{
+	width:30%;
+	height:25%;
+	background-color: black;
+}
+#largeImage{
+	width:300px;
+	height:300px;
+}
+.butts{
+	width: 20%;
+	height: 10%;
+}	

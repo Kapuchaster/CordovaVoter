@@ -1,0 +1,27 @@
+#tabbedMenu{
+	width: 300%;
+	height: 100%;	
+	background-color: yellow;
+}
+.mainFragment{
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+}
+.butts{
+	width: 20%;
+	height: 10%;
+}
+#fr1{
+	text-align: center;
+}
+#fr2{
+	text-align: center;	
+}
+#fr3{
+	text-align: center;
+}
+#imageAmount{
+	width: 10%;
+	height: 5%;
+}
