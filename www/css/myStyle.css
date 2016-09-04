@@ -1,22 +1,37 @@
 #tabbedMenu{
 	width: 300%;
-	height: 100%;	
-	background-color: yellow;
+	height: 100%;
+	background-color: #f2f2f2;
 }
 .mainFragment{
 	display: inline-block;
 	width: 33%;
 	height: 100%;
+	vertical-align: top;
+	border-style: solid;
 }
 .butts{
 	width: 20%;
 	height: 10%;
+	border: none;
+	color: white;
+	background-color: blue;
+	margin: auto;
+}
+.menuTitle{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+	background-color: #a6a6a6;
+}
+.content{
+	padding: 20px;
 }
 #fr1{
 	text-align: center;
 }
 #fr2{
-	text-align: center;	
+	text-align: center;
 }
 #fr3{
 	text-align: center;

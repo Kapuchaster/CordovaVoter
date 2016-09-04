@@ -7,28 +7,38 @@
 
 </head>
 
-<body onload="init()" onscroll="bodyScroll()">
+<!-- <body onload="init()" onscroll="bodyScroll()"> -->
+<body>
 <div id="tabbedMenu">
+
 	<div class = "mainFragment" id="fr1">
-		<p>Your menu</p>
-		
-		<button class="butts" type="button" onclick="gotopage()">Create New Vote</button>
-		<select id="imageAmount">
-		  <option value="2">2</option>
-		  <option value="3">3</option>
-		  <option value="4">4</option>
-		</select>
+    <div class="menuTitle">
+      Your Menu
+    </div>
+    <div class="content">
+      <button class="butts" type="button" onclick="gotopage()">Create New Vote</button>
+      <select id="imageAmount">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </div>
 	</div>
-	
+
 	<div class = "mainFragment" id="fr2">
-	your photos
-	
+    <div class="menuTitle">
+      Your photos
+    </div>
+
 	</div>
+
 	<div class = "mainFragment" id="fr3">
-	global photos
+    <div class="menuTitle">
+      Global photos
+    </div>
 	</div>
 </div>
- 
+
 </body>
 
 </html>
